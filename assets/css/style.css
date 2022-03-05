@@ -8,4 +8,31 @@
 
 body {
     font-family: Work Sans, sans-serif;
+    color: #D8D8D8;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    line-height: 90px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.active {
+    border-bottom: 1px solid #D8D8D8;
 }
