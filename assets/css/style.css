@@ -6,6 +6,10 @@
     border: none;
 }
 
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
+
 /* background image and font style*/
 
 body {
@@ -69,16 +73,14 @@ body {
 }
 
 #solfeggio-for-piano {
-    font-size: 300%;
     text-transform: uppercase;
-    font-weight: 100;
+    font-size: 300%;
     letter-spacing: 30px;
 }
 
 #alpha-music {
-    font-size: 120%;
     text-transform: uppercase;
-    font-weight: 100;
+    font-size: 120%;
     letter-spacing: 8px;
     padding-top: 40px;
 }
@@ -96,12 +98,11 @@ body {
 }
 
 #solfeggio-video h2 {
-    font-weight: 100;
     text-transform: uppercase;
 }
 
 #solfeggio-video p {
-    padding: 20px 220px 150px 220px;
+    padding: 20px 220px 100px 220px;
     line-height: 1.6;
 }
 
@@ -114,3 +115,34 @@ body {
     display: block;
     border-top: 1px solid;
 }
+
+/* embedded audio*/
+
+#solfegio-audio {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#solfegio-audio h2 {
+    text-transform: uppercase;
+}
+
+#solfegio-audio h4 {
+    font-size: 85%;
+    line-height: 0px;
+}
+
+#audio-image {
+    background: url('../images/pexels-photo-590493.jpg') no-repeat center center;
+    background-size: cover;
+    clear: both;
+    width: 400px;
+    height: 480px;
+    margin: 50px auto 20px;
+}
+
+audio {
+    margin: 20px auto;
+}
+
