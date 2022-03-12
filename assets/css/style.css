@@ -82,3 +82,9 @@ body {
     letter-spacing: 8px;
     padding-top: 40px;
 }
+
+/* embedded video */
+
+#solfeggio-video {
+    width: 50%;
+}
