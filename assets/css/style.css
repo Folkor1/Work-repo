@@ -101,6 +101,16 @@ body {
 }
 
 #solfeggio-video p {
-    padding: 30px 220px 100px 220px;
+    padding: 20px 220px 150px 220px;
     line-height: 1.6;
+}
+
+/* dividing line */
+
+#dividing-line {
+    position: relative;
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+    border-top: 1px solid;
 }
