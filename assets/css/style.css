@@ -24,7 +24,7 @@ body {
 
 #menu {
     font-size: 110%;
-    line-height: 100px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -50,7 +50,6 @@ body {
 /* social media links */
 
 #social-media {
-    line-height: 100px;
     margin-right: 50px;
 }
 
@@ -200,6 +199,7 @@ footer p {
     #menu {
         text-align: center;
         margin: 0 auto;
+        margin-top: 50px;
     }
 
     #menu li {
@@ -211,6 +211,7 @@ footer p {
         clear: left;
         text-align: center;
         margin: 0 auto;
+        margin-top: 70px;
     }
 
     #social-media li {
@@ -248,4 +249,18 @@ footer p {
         width: 350px;
         height: 400px;
     }
+}
+
+/* Notes page */
+
+/* main div container */
+
+#wrapper {
+    clear: both;
+    width: 50%;
+    height: 1500px;
+    background-color: #ede3cee0;
+    margin: 0 auto;
+    border-radius: 0.3%;
+    height: 2000px;
 }
