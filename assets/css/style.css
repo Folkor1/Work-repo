@@ -70,16 +70,15 @@ body {
 #body-text {
     text-align: center;
     padding-top: 700px;
+    text-transform: uppercase;
 }
 
 #solfeggio-for-piano {
-    text-transform: uppercase;
     font-size: 300%;
     letter-spacing: 30px;
 }
 
 #alpha-music {
-    text-transform: uppercase;
     font-size: 120%;
     letter-spacing: 8px;
     padding-top: 40px;
@@ -159,3 +158,39 @@ footer p {
     font-size: 90%;
     padding-top: 360px;
 }
+
+/* Media quaries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #solfeggio-video p {
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+
+/* For medium screen sizes from 1000px wide and down */
+@media screen and (max-width: 1000px) {
+
+    #video-and-audio {
+        padding-top: 300px;
+    }
+
+    #solfeggio-video {
+        text-align: center;
+        width: 100%;
+    }
+
+    #solfeggio-video p {
+        width: 500px;
+        margin: 0 auto;
+        padding: 10px 20px 100px 20px;
+    }
+
+    #solfegio-audio {
+        text-align: center;
+        width: 100%;
+        margin-top: 150px;
+    }
+}
+
