@@ -222,3 +222,30 @@ footer p {
         padding-top: 500px;
     }
 }
+
+/* For small screen sizes from 550px wide to 350px */
+@media screen and (max-width: 550px) {
+
+    #solfeggio-for-piano {
+        letter-spacing: 5px;
+        font-size: 180%;
+    }
+
+    #social-media li {
+        margin: 7px;
+    }
+
+    #solfeggio-video p {
+        width: 300px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    #audio-image {
+        width: 350px;
+        height: 400px;
+    }
+}
