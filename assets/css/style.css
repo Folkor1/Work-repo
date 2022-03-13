@@ -16,7 +16,7 @@ body {
     font-family: Work Sans, sans-serif;
     color: #D8D8D8;
     background: black url('../images/pexels-brett-sayles-3507989.jpg') no-repeat fixed center;
-    background-size: 100%;
+    background-size: cover;
     height: 2000px;
 }
 
@@ -194,3 +194,31 @@ footer p {
     }
 }
 
+/* For small screen sizes from 700px wide and down */
+@media screen and (max-width: 700px) {
+
+    #menu {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #menu li {
+        float: none;
+        display: inline;
+    }
+
+    #social-media {
+        clear: left;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #social-media li {
+        float: none;
+        display: inline;
+    }
+
+    #body-text {
+        padding-top: 500px;
+    }
+}
