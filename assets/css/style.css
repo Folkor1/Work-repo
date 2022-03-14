@@ -108,7 +108,7 @@ body {
 /* dividing line */
 
 #dividing-line {
-    position: relative;
+    
     width: 150px;
     margin: 10px auto;
     display: block;
@@ -263,7 +263,6 @@ footer p {
 #wrapper {
     clear: both;
     width: 50%;
-    height: 1500px;
     background-color: #ede3ceec;
     margin: 0 auto;
     border-radius: 0.3%;
