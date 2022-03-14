@@ -257,7 +257,7 @@ footer p {
 /* main div container */
 
 #notes-body {
-    height: 2800px;
+    height: 2600px;
 }
 
 #wrapper {
@@ -267,7 +267,7 @@ footer p {
     background-color: #ede3ceec;
     margin: 0 auto;
     border-radius: 0.3%;
-    height: 2700px;
+    height: 2500px;
 }
 
 /* inner div container */
