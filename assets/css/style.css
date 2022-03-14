@@ -256,6 +256,10 @@ footer p {
 
 /* main div container */
 
+#notes-body {
+    height: 2800px;
+}
+
 #wrapper {
     clear: both;
     width: 50%;
@@ -263,7 +267,7 @@ footer p {
     background-color: #ede3ceec;
     margin: 0 auto;
     border-radius: 0.3%;
-    height: 2000px;
+    height: 2700px;
 }
 
 /* inner div container */
@@ -294,10 +298,6 @@ footer p {
 
 .paragraph-container {
     margin-top: 50px;
-}
-
-#octaves-container {
-
 }
 
 /* anchor links container */
