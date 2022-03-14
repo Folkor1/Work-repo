@@ -292,8 +292,12 @@ footer p {
     border-bottom-right-radius: 3%;
 }
 
-#middle-c-container {
+.paragraph-container {
     margin-top: 50px;
+}
+
+#octaves-container {
+
 }
 
 /* anchor links container */
