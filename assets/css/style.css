@@ -260,7 +260,7 @@ footer p {
     clear: both;
     width: 50%;
     height: 1500px;
-    background-color: #ede3cee0;
+    background-color: #ede3ceec;
     margin: 0 auto;
     border-radius: 0.3%;
     height: 2000px;
@@ -270,7 +270,20 @@ footer p {
 
 #inner-box {
     margin: 0 auto;
-    padding: 60px 0;
-    width: 80%;
+    padding: 80px 0;
+    width: 70%;
     height: 95%;
+    color: black;
 }
+
+/* inner div contents */
+
+#notes-heading {
+    font-size: 230%;
+}
+
+#notes-text {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
