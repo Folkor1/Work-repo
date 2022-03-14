@@ -287,3 +287,12 @@ footer p {
     line-height: 25px;
 }
 
+/* anchor links container */
+
+#anchor-container {
+    width: 300px;
+    height: 200px;
+    background-color: #c7bfad73;
+    border-radius: 1%;
+    margin: 30px 0 50px 0;
+}
