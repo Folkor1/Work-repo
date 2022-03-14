@@ -318,3 +318,12 @@ footer p {
 #anchor-links-list {
     margin-left: 40px;
 }
+
+#anchor-links-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#anchor-links-list a:hover {
+    color: brown;
+}
