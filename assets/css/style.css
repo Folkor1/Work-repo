@@ -265,3 +265,12 @@ footer p {
     border-radius: 0.3%;
     height: 2000px;
 }
+
+/* inner div container */
+
+#inner-box {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 80%;
+    height: 95%;
+}
