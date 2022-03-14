@@ -287,6 +287,11 @@ footer p {
     line-height: 25px;
 }
 
+.keyboard-img {
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
 /* anchor links container */
 
 #anchor-container {
