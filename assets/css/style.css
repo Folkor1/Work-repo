@@ -290,7 +290,7 @@ footer p {
 /* anchor links container */
 
 #anchor-container {
-    width: 300px;
+    width: 350px;
     height: 200px;
     background-color: #c7bfad73;
     border-radius: 1%;
@@ -299,4 +299,9 @@ footer p {
 
 #inner-anchor-container {
     padding: 20px;
+    line-height: 30px;
+}
+
+#anchor-links-list {
+    margin-left: 40px;
 }
