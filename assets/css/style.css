@@ -292,6 +292,10 @@ footer p {
     border-bottom-right-radius: 3%;
 }
 
+#middle-c-container {
+    margin-top: 50px;
+}
+
 /* anchor links container */
 
 #anchor-container {
