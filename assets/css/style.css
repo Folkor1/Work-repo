@@ -366,3 +366,11 @@ footer p {
     height: 100%;
 }
 }
+
+/* Signup page*/
+
+#signup-body {
+    background: black url('../images/grades-279333_1920.jpg') no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+}
