@@ -393,6 +393,7 @@ footer p {
 #signup-form h2 {
     font-size: 180%;
     padding: 20px 0;
+    text-transform: uppercase;
 }
 
 .text-input {
