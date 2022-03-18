@@ -108,7 +108,6 @@ body {
 /* dividing line */
 
 #dividing-line {
-    
     width: 150px;
     margin: 10px auto;
     display: block;
@@ -159,7 +158,7 @@ footer p {
     padding-top: 120px;
 }
 
-/* Media quaries */
+/* Media quaries for main page */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -325,4 +324,17 @@ footer p {
 
 #anchor-links-list a:hover {
     color: brown;
+}
+
+/* Media quaries for Notes page*/
+
+/* For larger to medium screens size from 1700px to 1500px */
+@media screen and (max-width: 1700px) {
+    #wrapper {
+        width: 60%;
+    }
+
+    #notes-section {
+        padding-top: 50px;
+    }
 }
