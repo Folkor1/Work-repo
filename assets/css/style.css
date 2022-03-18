@@ -328,7 +328,7 @@ footer p {
 
 /* Media quaries for Notes page*/
 
-/* For larger to medium screens size from 1700px to 1200px */
+/* For larger screens size from 1700px to 1200px */
 @media screen and (max-width: 1700px) {
     #wrapper {
         width: 60%;
@@ -339,9 +339,30 @@ footer p {
     }
 }
 
-/* For larger to medium screens size from 1500px to 1200px */
-@media screen and (max-width: 1500px) {
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
     #wrapper {
-
+        width: 70%;
     }
+}    
+
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+    #wrapper {
+        width: 80%;
+    }
+
+    .keyboard-img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* For small screen sizes from 600px wide to 350px */
+@media screen and (max-width: 600px) {
+
+#anchor-container {
+    width: 100%;
+    height: 100%;
+}
 }
