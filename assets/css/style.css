@@ -381,7 +381,7 @@ footer p {
     width: 600px;
     height: 350px;
     margin: 0 auto;
-    background-color: #ede3ce34;
+    background-color: #ede3ce2c;
     border-radius: 0.5%;
     text-align: center;
 }
@@ -427,4 +427,22 @@ footer p {
 #join-button:hover {
     background-color: #D8D8D8;
     color: black;
+}
+
+/* Media quaries for Signup page*/
+
+/* For small screen sizes from 700px wide to 350px */
+@media screen and (max-width: 700px) {
+
+    #signup-section {
+        padding: 50% 0 80px 0;
+    }
+
+    #signup-form {
+        width: 90%;
+    }
+
+    #join-button {
+        padding-bottom: 20px;
+    }
 }
