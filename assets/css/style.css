@@ -265,7 +265,7 @@ footer p {
     background-color: #ede3ceec;
     margin: 0 auto;
     border-radius: 0.3%;
-    height: 2500px;
+    height: 100%;
 }
 
 /* inner div container */
@@ -328,7 +328,7 @@ footer p {
 
 /* Media quaries for Notes page*/
 
-/* For larger to medium screens size from 1700px to 1500px */
+/* For larger to medium screens size from 1700px to 1200px */
 @media screen and (max-width: 1700px) {
     #wrapper {
         width: 60%;
@@ -336,5 +336,12 @@ footer p {
 
     #notes-section {
         padding-top: 50px;
+    }
+}
+
+/* For larger to medium screens size from 1500px to 1200px */
+@media screen and (max-width: 1500px) {
+    #wrapper {
+
     }
 }
