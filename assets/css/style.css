@@ -411,3 +411,20 @@ footer p {
 .text-input:focus {
     outline: none;
 }
+
+#join-button {
+    margin-top: 30px;
+    padding: 20px 120px;
+    background-color: transparent;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    color: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+#join-button:hover {
+    background-color: #D8D8D8;
+    color: black;
+}
