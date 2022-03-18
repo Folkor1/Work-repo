@@ -374,3 +374,18 @@ footer p {
     background-size: cover;
     height: 100%;
 }
+
+/* Signup form*/
+
+#signup-form {
+    width: 500px;
+    height: 300px;
+    clear: both;
+    margin: 0 auto;
+    background-color: #ede3ce34;
+    border-radius: 0.5%;
+}
+
+#signup-section {
+    padding: 300px 0 130px 0;
+}
