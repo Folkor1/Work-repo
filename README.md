@@ -1,108 +1,118 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Solfeggio for Piano
 
-Welcome Folkor1,
+An informational website for anyone interested in music, and especially in theory of music. A useful information for beginner piano players; some basic concepts of notes, their types and classification.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Subscription form is available for the actual updates related to theory of music.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<a href="https://folkor1.github.io/Work-repo/index.html" target="_blank">Solfeggio for Piano project link</a>
 
-## Gitpod Reminders
+![Mockup screenshot](assets/docs/Capture.PNG)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+The website is designed so that the new features can be easily added with no harm to the initial design concept.
 
-A blue button should appear to click: _Make Public_,
+### Existing features
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Menu__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The navigation menu allows user to navigate throught the website and has fixed position on all pages - Home, Notes and Signup.
 
-A blue button should appear to click: _Make Public_,
+    ![navigation](assets/docs/navigation.PNG)
+  
+- __Social Media Links__
 
-Another blue button should appear to click: _Open Browser_.
+  - Links to the mainstream social media and relevant resources: Spotify, SoundCloud, Facebook, Twitter, YouTube, Apple Music, Instagram.
+  - This section will help the user to find thematic groups, news and discussions.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    ![social media](assets/docs/socialmedia.PNG)
 
-To log into the Heroku toolbelt CLI:
+- __Embedded video__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - A visual demonstration of a technique that might be useful for beginner piano players.
+    
+    ![embedded video](assets/docs/video.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Embedded audio__
 
-------
+  - In this section the user can play a melody with provided audio controls.
 
-## Release History
+    ![embedded audio](assets/docs/audio.PNG)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Notes page__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - This section allows the user to familiarize with the basic concepts of notes with explaining images.
+  - Anchor links will help to jump to different paragraphs in a more convenient manner than scrolling.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    ![Notes page](assets/docs/Notes.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Signup form__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - Signup form is designed for subscription to relevant news and updates.
+  - E-mail and name fields are mandatory for submittin the form.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    ![signup](assets/docs/signup.PNG)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Features to implement
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- More informational pages like 'Notes' could be added, such as 'Intervals', 'Clefs', 'Accidentals', etc.
+- The 'Notes' link could be transformed to drop-down menu for convenience, keeping the initial website design.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Testing was performed on different stages of the project, with the final, more comprehensive after deployment.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Tested all links(navigation links, social media links, anchor links, signup form completion link) to make sure that there are no broken ones, leading to error page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Text font color was tested to ensure that it's readible when positioned on the bright part of the background image.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Also tested different elements of the website to make sure that they are correctly alligned and not clipping/overlapping when changing the screen size. Minimum screen size that keeps the elements well aligned: 350px. Checked images in different screen sizes to ensure that they are correctly scaling with no streching.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Tested signup form to make sure that make sure that input fields are working as intended, e.g. e-mail field only accepting the input in the correct form. Also tested the maximum amount of symbols that allowed in e-mail/name fields(was set 50 in the code).
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Some of the bugs that were identified on the course of testing:
 
-------
+ - Misaligned footer on different pages.
 
-## FAQ about the uptime script
+ - Unreadable text due to text color is smaller screen sizes.
 
-**Why have you added this script?**
+ - Inconsistent autofill background color in signup form.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+All the bugs found were fixed and passed the final testing. 
 
-**How will this affect me?**
+## Validator testing
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ - HTML
+   - No errors identified in <a href="https://validator.w3.org/" target="_blank">W3C HTML validator</a>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+ - CSS
+   - No errors identified in <a href="https://jigsaw.w3.org/css-validator/#validate_by_uri" target="_blank">W3C CSS validator</a>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Deployment
 
-**So….?**
+The project was deployed to GitHub following by these steps:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+ 1. Login to GitHub
+ 2. Select the repository
+ 3. Navigate to 'Settings' -> 'Pages'
+ 4. In the 'Source' drop-down menu select 'main'
+ 5. Press 'Save'
+ 6. The link becomes available straight away and the project loads once the building process is finished
 
-**Can I opt out?**
+## Credits
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Design for the main page was partially taken from <a href="https://www.wix.com/" target="_blank">WIX</a>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Images(excluding piano keyboard) were taken from <a href="https://pixabay.com/" target="_blank">Pixabay</a>
 
-**Anything more?**
+Paragraph text was taken from the following resources: <a href="https://www.musicca.com/" target="_blank">MUSICCA</a> and <a href="https://www.completesongwriter.com/" target="_blank">Complete Songwriter</a>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The icons were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
 
----
+Font was taken from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
 
-Happy coding!
+The following resources were used for solutions and ideas:
+
+ - <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+
+ - <a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
