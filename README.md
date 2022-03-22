@@ -78,7 +78,7 @@ Some of the bugs that were identified on the course of testing:
 
  - Misaligned footer on different pages.
 
- - Unreadable text due to text color is smaller screen sizes.
+ - Unreadable text due to text color on smaller screen sizes.
 
  - Inconsistent autofill background color in signup form.
 
