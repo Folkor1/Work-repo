@@ -52,6 +52,10 @@ The website is designed so that the new features can be easily added with no har
   - E-mail and name fields are mandatory for submittin the form.
 
     ![signup](assets/docs/signup.PNG)
+    
+- __Adaptive design__
+
+   - The website is designed to suit different scales of the display, starting from large 1600px and to minimum of 350px.
 
 ### Features to implement
 
