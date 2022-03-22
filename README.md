@@ -49,7 +49,7 @@ The website is designed so that the new features can be easily added with no har
 - __Signup form__
 
   - Signup form is designed for subscription to relevant news and updates.
-  - E-mail and name fields are mandatory for submittin the form.
+  - E-mail and name fields are mandatory for submitting the form.
 
     ![signup](assets/docs/signup.PNG)
     
