@@ -72,7 +72,7 @@ Testing was performed on different stages of the project, with the final, more c
 
 - Also tested different elements of the website to make sure that they are correctly alligned and not clipping/overlapping when changing the screen size. Minimum screen size that keeps the elements well aligned: 350px. Checked images in different screen sizes to ensure that they are correctly scaling with no streching.
 
-- Tested signup form to make sure that make sure that input fields are working as intended, e.g. e-mail field only accepting the input in the correct form. Also tested the maximum amount of symbols that allowed in e-mail/name fields(was set 50 in the code).
+- Tested signup form to make sure that input fields are working as intended, e.g. e-mail field only accepting the input in the correct form. Also tested the maximum amount of symbols that allowed in e-mail/name fields(was set 50 in the code).
 
 Some of the bugs that were identified on the course of testing:
 
