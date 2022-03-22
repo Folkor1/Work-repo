@@ -94,7 +94,7 @@ All the bugs found were fixed and passed the final testing.
 
 ## Deployment
 
-The project was deployed to GitHub following by these steps:
+The project was deployed to GitHub by following these steps:
 
  1. Login to GitHub
  2. Select the repository
