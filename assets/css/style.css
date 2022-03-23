@@ -413,6 +413,7 @@ footer p {
     outline: none;
 }
 
+/* The code for autofill background color was taken from here: https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
 input:-webkit-autofill,
 input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
